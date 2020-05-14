@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PRZ2CNC');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>挙式無料プレゼントキャンペーン |  桔梗が丘ヴェルージュ</title>
+    <meta name="description" content="春の特別企画！54万円相当が8組様に抽選で当たる！日頃の感謝を込めて8組様に挙式無料プレゼントキャンペーンを開催中！">
+    <link rel="stylesheet" type="text/css" href="./css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/default.css?2020031201">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel=”canonical” href=”http://www.vellugue.com/lp/” />
+    <link rel="apple-touch-icon" size="144x144" href="http://www.vellugue.com/wedding_lp/images/webclip.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.vellugue.com/wedding_lp/images/favicon.ico">
+
+    <meta property="og:site_name" content="挙式無料プレゼントキャンペーン |  桔梗が丘ヴェルージュ">
+    <meta property="og:title" content="挙式無料プレゼントキャンペーン |  桔梗が丘ヴェルージュ">
+    <meta property="og:description" content="春の特別企画！54万円相当が8組様に抽選で当たる！日頃の感謝を込めて8組様に挙式無料プレゼントキャンペーンを開催中！">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://www.vellugue.com/wedding_lp/">
+    <meta property="og:image" content="http://www.vellugue.com/wedding_lp/images/ogp.png">
+    <meta property="og:image:secure_url" content="http://www.vellugue.com/wedding_lp/images/ogp.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="挙式無料プレゼントキャンペーン |  桔梗が丘ヴェルージュ">
+    <meta name="twitter:description" content="春の特別企画！54万円相当が8組様に抽選で当たる！日頃の感謝を込めて8組様に挙式無料プレゼントキャンペーンを開催中！">
+    <meta name="twitter:image" content="http://www.vellugue.com/wedding_lp/images/ogp.png">
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRZ2CNC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <section class="p-confirm">
+      <div class="l-container">
+        <div class="p-confirm--logo"><img src="./images/confirm_logo.png" alt="三重県名張市の結婚式場　桔梗が丘ヴェルージュ"></div>
+        <div class="p-confirm--ttl c-ttl"><img src="./images/reservation_ttl.png" alt="抽選予約フォーム"></div>
+        <div class="p-confirm--number">
+          <picture>
+            <source media="(max-width: 700px)" srcset="./images/sp/number02.png">
+            <img src="./images/number02.png" alt="2.ご確認">
+          </picture>
+        </div>
+        <table class="p-confirm--table">
+          {loop:$params}
+          <tr>
+            <th>{$params[].key}&nbsp;</th>
+            <td>{$params[].value.nl2br}&nbsp;</td>
+          </tr>
+          {/loop:$params}
+          {loop:$files}
+          <tr>
+            <th>{$files[].key}&nbsp;</th>
+            <td>{$files[].name}<br>
+            <img src="index.php?file={$files[].tmp_name}"><br>
+            <a href="index.php?file={$files[].tmp_name}" target="_blank" class="external">画像を別ウィンドウで開く</a></td>
+          </tr>
+          {/loop:$files}
+        </table>
+
+        <div class="p-confirm--check">
+          <form method="post" action="index.php?finish" class="p-confirm--send">
+              {$hiddens}
+              <input type="hidden" name="page" value="finish">
+              <input type="submit" value="以上の内容で送信する">
+          </form>
+          &nbsp;
+          <form method="post" action="index.php#reservation" class="p-confirm--again">
+              {$hiddens}
+              <input type="hidden" name="page" value="input">
+              <input type="submit" value="入力画面に戻る">
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="logo">
+        <picture>
+          <source media="(max-width: 700px)" srcset="./images/sp/logo.png">
+          <img src="./images/logo.png" alt="桔梗が丘ヴェルージュ">
+        </picture>
+      </div>
+      <h2 class="footer-ttl">桔梗が丘ヴェルージュ</h2>
+      <p class="footer-profile">〒518-0621<br class="sp"><span class="pc">　</span>三重県名張市桔梗が丘１番町1街区３番地</p>
+      <p class="footer-profile">営業時間<br class="sp"><span class="pc">：</span>11:00〜18:30</p>
+      <a href="tel:0595671122"><div class="footer-tel"><i class="fas fa-phone"></i>0595-67-1122</div></a>
+    </footer>
+
+    <section class="copyright">Copyright (c) Bellwing Co.,Ltd All rights reserved.</section>
+    <!-- GA Tag -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-89493295-1', 'auto');
+      ga('send', 'pageview');
+
+      $(window).on("load", function(){
+      //tel click
+      $('a[href^="tel:"]').on("click", function(){
+      ga('send', 'event', 'tel', 'click', window.location.href, '1');
+      });
+      //ラブマリへのリンク click
+      $('a[href^="http://bridal-kensaku.com/"]').on("click", function(){
+      ga('send', 'event', 'lovemari', 'click', window.location.href, '1');
+      });
+      });
+    </script>
+  </body>
+</html>

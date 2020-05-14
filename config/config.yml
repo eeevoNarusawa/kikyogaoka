@@ -1,0 +1,7 @@
+config:
+    email: vellugue@e-net.or.jp
+    auto_reply: true
+    subject: 挙式無料プレゼントキャンペーン |  桔梗が丘ヴェルージュ からのお問い合わせ
+    auto_reply_subject: 挙式無料プレゼントキャンペーンのお問い合わせありがとうございます
+    auto_reply_name: 桔梗が丘ヴェルージュ
+    auto_reply_email_input_name: メールアドレス

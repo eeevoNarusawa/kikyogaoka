@@ -1,0 +1,162 @@
+// main: ../../default.scss
+@media screen and (max-width: $media-S) {
+  .p-confirm {
+    background: #fbf9f5;
+    padding: 12px 0 60px;
+    &--logo {
+      width: 50%;
+    }
+    &--ttl {
+      width: 80%;
+      margin: 40px auto 30px;
+    }
+    &--number {
+      width: 90%;
+      margin: 0 auto;
+    }
+    &--table {
+      margin: 40px 0;
+      th {
+        display: block;
+        font-weight: bold;
+        padding-bottom: 4px;
+      }
+      td {
+        display: block;
+        padding-bottom: 24px;
+      }
+    }
+    &--send {
+      display: block;
+      width: 90%;
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: center;
+      input {
+        color: #fff;
+        background: $pink;
+        border: none;
+        font-size: 2rem;
+        font-family: $font;
+        padding: 12px 40px 13px;
+        border-radius: 0;
+        &:hover {
+          opacity: .8;
+        }
+      }
+    }
+    &--again {
+      text-align: center;
+      input {
+        background: none;
+        border: none;
+        font-size: 1.6rem;
+        text-decoration: underline;
+      }
+    }
+  }
+  .p-send {
+    &--ttl {
+      width: 80%;
+      margin: 40px auto 30px;
+    }
+    &--wrap {
+      font-size: 1.5rem;
+      margin: 20px 0 40px;
+      text-align: center;
+      line-height: 2;
+    }
+    &--link {
+      text-align: center;
+      background: #654232;
+      font-size: 2rem;
+      font-family: $font;
+      width: 90%;
+      max-width: 400px;
+      margin: 0 auto;
+      &:hover {
+        opacity: .8;
+      }
+      &__cont {
+        padding: 12px 0;
+        color: #fff;
+      }
+    }
+  }
+
+
+}
+@media screen and (min-width: $mediaM-) {
+  .p-confirm {
+    background: #fbf9f5;
+    padding: 30px 0 60px;
+    &--ttl {
+      margin: 50px 0;
+    }
+    &--number {
+      text-align: center;
+    }
+    &--table {
+      width: 600px;
+      margin: 40px auto;
+      th {
+        width: 300px;
+        font-weight: bold;
+      }
+      td {
+        padding-bottom: 20px;
+      }
+    }
+    &--send {
+      display: block;
+      width: 400px;
+      margin: 0 auto;
+      text-align: center;
+      input {
+        color: #fff;
+        background: $pink;
+        border: none;
+        font-size: 2.4rem;
+        font-family: $font;
+        padding: 12px 80px 13px;
+        &:hover {
+          opacity: .8;
+        }
+      }
+    }
+    &--again {
+      text-align: center;
+      input {
+        background: none;
+        border: none;
+        font-size: 1.8rem;
+        text-decoration: underline;
+      }
+    }
+  }
+  .p-send {
+    &--ttl {
+      margin: 90px 0 60px;
+    }
+    &--wrap {
+      margin: 60px 0;
+      text-align: center;
+      line-height: 2.6;
+    }
+    &--link {
+      text-align: center;
+      background: #654232;
+      font-size: 2.4rem;
+      font-family: $font;
+      width: 400px;
+      margin: 0 auto 160px;
+      &:hover {
+        opacity: .8;
+      }
+      &__cont {
+        padding: 12px 0;
+        color: #fff;
+      }
+    }
+  }
+}
